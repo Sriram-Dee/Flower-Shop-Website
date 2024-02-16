@@ -5,9 +5,7 @@
 }
 
 /* ============== Nav bar =================== */
-.navbar a.nav-link.active{
-    font-size: 24px;
-}
+
 .navbar a.nav-link:not(.active){
     transition: all .3s ease;
     border-bottom: 2px solid transparent;

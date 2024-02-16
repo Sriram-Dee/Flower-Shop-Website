@@ -6,7 +6,6 @@ import {
   Link,
 } from "react-router-dom";
 import { About } from '../../Pages/About';
-import App from '../../App';
 import { Login } from '../../Pages/Login';
 import { Track } from '../../Pages/Track';
 import { Home } from '../../Pages/Home';
@@ -17,7 +16,7 @@ import { Home } from '../../Pages/Home';
 function NavBarComp() {
   return (
     <Router>
-      <Navbar bg="secondary"  data-bs-theme="secondary" expand="sm" className="mb-3 shadow" sticky="top">
+      <Navbar bg="secondary"  data-bs-theme="secondary" expand="sm" className="shadow" sticky="top">
       <Container fluid>
         <Navbar.Brand as={Link} to="/" className='text-primary fw-bold fs-3'>Bolossom</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-sm`} />

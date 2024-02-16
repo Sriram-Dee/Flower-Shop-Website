@@ -20,12 +20,12 @@ function ContactForm() {
   };
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+    <Form noValidate validated={validated} onSubmit={handleSubmit} id='contact'>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" className='mx-auto' controlId="validationCustom01">
             <Form.Label>Name</Form.Label>
             <InputGroup hasValidation>
-                <InputGroup.Text id="inputGroupPrepend"><Person color="#E85A4F" /> </InputGroup.Text>
+                <InputGroup.Text id="name"><Person color="#E85A4F" /> </InputGroup.Text>
                 <Form.Control
                 type="text"
                 placeholder="Name"
@@ -39,10 +39,10 @@ function ContactForm() {
         </Form.Group>
         </Row>
         <Row className="mb-3">
-        <Form.Group as={Col} md="4" className='mx-auto' controlId="validationCustom01" >
+        <Form.Group as={Col} md="4" className='mx-auto' controlId="validationCustom02" >
             <Form.Label>Email</Form.Label>
             <InputGroup hasValidation>
-                <InputGroup.Text id="inputGroupPrepend"><Envelope color="#E85A4F" /> </InputGroup.Text>
+                <InputGroup.Text id="email"><Envelope color="#E85A4F" /> </InputGroup.Text>
                 <Form.Control
                 type="email"
                 placeholder="sample@gmail.com"

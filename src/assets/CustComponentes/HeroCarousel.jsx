@@ -39,7 +39,7 @@ function HeroCarousel() {
                 <div className="carousel-caption d-sm-block">
                   <h3 className="h1">{caro.title}</h3>
                   <p className="lead">{caro.description}</p>
-                  <Button variant="info" className="text-light mt-5"><Cart/> Order Now</Button>
+                  <Button variant="info" className="text-light mt-1 mt-md-5 btn-sm"><Cart/> Order Now</Button>
                 </div>
               </div>
             ))
