@@ -5,7 +5,7 @@ import { Link } from 'react-bootstrap-icons'
 export const Footer = () => {
   return (
     <>
-    <Container className="bg-light m-0 p-3" fluid>
+    <Container className="bg-light m-0 p-3" fluid >
         <Row>
             <Col md={3}>
                 <h6>About Company</h6>
