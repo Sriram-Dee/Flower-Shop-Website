@@ -3,7 +3,7 @@ import ContactForm from "../assets/CustComponentes/ContactForm";
 
 export const About = () => {
   return (
-    <div className="container py-3 " id="about">
+    <div className="container py-5 " id="about">
       <h3 className="text-primary text-center my-3">
         Welcome to Bolossom.com{" "}
         <span className="text-muted d-block fs-6">

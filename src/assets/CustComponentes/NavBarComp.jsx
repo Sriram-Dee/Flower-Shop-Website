@@ -25,7 +25,7 @@ function NavBarComp() {
       >
         <Container fluid>
           <Navbar.Brand as={Link} to="/" className="text-primary fw-bold fs-3">
-            <Flower2 className="display-5" /> Bolossom
+            <Flower2 className="display-5 brand-logo" /> Bolossom
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-sm`} />
           <Navbar.Offcanvas

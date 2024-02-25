@@ -1,7 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+import { Col, Container, Row, Button, Card} from "react-bootstrap";
 
 const flowers = [
   {
@@ -62,19 +60,17 @@ const flowers = [
   },
 ];
 
-function CardTemplet() {}
-
 export const Products = () => {
   return (
     <section id="products">
-      <Container className="my-5">
+      <Container className="mt-5">
         <p className="display-6 fw-semibold text-primary text-center">
           Products
         </p>
         <Row className="p-md-5">
           {flowers.map((flower, index) => (
-            <Col md={6} lg={4} className="p-3">
-              <Card key={index}>
+            <Col md={6} lg={4} className="p-3" key={index}>
+              <Card >
                 <Card.Img variant="top" src={flower.source} />
                 <Card.Body>
                   <Card.Title>{flower.name}</Card.Title>

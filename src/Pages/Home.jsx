@@ -13,8 +13,6 @@ export const Home = () => {
         </div>
         <Products />
         <About />
-        <Track />
-        <Login />
     </div>
   )
 }
