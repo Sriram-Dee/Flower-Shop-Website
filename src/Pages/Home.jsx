@@ -1,7 +1,5 @@
 import React from 'react'
 import { About } from './About'
-import { Login } from './Login'
-import { Track } from './Track'
 import HeroCarousel from '../assets/CustComponentes/HeroCarousel'
 import { Products } from './Products'
 

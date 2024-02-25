@@ -20,7 +20,7 @@ function ContactForm() {
   };
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit} id='contact'>
+    <Form noValidate validated={validated} onSubmit={handleSubmit} id='contact' autoComplete='off'>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" className='mx-auto' controlId="validationCustom01">
             <Form.Label>Name</Form.Label>

@@ -10,7 +10,7 @@ export const Track = () => {
     <>
       <section id="track">
         <h3 className="text-center py-5">Tracking your order is simple!</h3>
-        <form onSubmit={(e) => e.preventDefault()}>
+        <form onSubmit={(e) => e.preventDefault()} autoComplete="off">
           <Row className="px-3">
             <Form.Group
               as={Col}
