@@ -12,8 +12,8 @@
 }
 /* ============== Nav bar =================== */
 
-.navbar a.nav-link:not(.active){
-    transition: all .3s ease;
+.navbar a.nav-link{
+    transition: all 0.5s ease;
     border-bottom: 2px solid transparent;
 }
 .navbar a.nav-link:not(a.nav-link.active):hover{
@@ -24,6 +24,18 @@
 
 .brand-logo{
     animation: rotate 10s infinite linear;
+}
+
+.navbar-brand .logotext{
+    background: linear-gradient(to right, #111111, #e8594f88), url("carouse1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    color: transparent !important;
+}
+
+nav form{
+    max-height: 40px;
 }
 
 @keyframes rotate{
@@ -93,4 +105,19 @@
 
 #track{
     flex-grow: 1;
+}
+
+#footer ul li{
+    list-style-type: "> ";
+}
+#footer ul li::marker{
+    color: #E85A4F;
+    background-color:
+}
+#footer ul li a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+#footer ul li a:hover{
+    color: #E85A4F;
 }
