@@ -25,7 +25,8 @@ function NavBarComp() {
       >
         <Container fluid>
           <Navbar.Brand as={Link} to="/" className="text-primary fw-bold fs-3">
-            <Flower2 className="display-5 brand-logo" /> Bolossom
+            <Flower2 className="display-5 brand-logo" />{" "}
+            <span className="logotext">Bolossom</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-sm`} />
           <Navbar.Offcanvas
@@ -38,8 +39,8 @@ function NavBarComp() {
                 Bolossom
               </Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
+            <Offcanvas.Body className="align-items-center">
+              <Nav className="justify-content-end align-items-center flex-grow-1 pe-3">
                 <Nav.Link as={Link} to={"/"}>
                   Home
                 </Nav.Link>
