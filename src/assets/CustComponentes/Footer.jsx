@@ -1,11 +1,17 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-bootstrap-icons";
+import {
+  Facebook,
+  Globe,
+  Instagram,
+  Link,
+  Whatsapp,
+} from "react-bootstrap-icons";
 
 export const Footer = () => {
   return (
     <>
-      <Container className="bg-light m-0 p-3" fluid>
+      <Container className="bg-light m-0 p-3" id="footer" fluid>
         <Row>
           <Col md={3}>
             <h6>About Company</h6>
@@ -64,16 +70,25 @@ export const Footer = () => {
             <h6>Social</h6>
             <ul>
               <li>
-                <a href="">Online flower delivery</a>
+                <a href="https://instagram.com" target="_blank">
+                  <Instagram color="hotpink" fontSize={20} /> Instagram{" "}
+                </a>
               </li>
               <li>
-                <a href="#">Midnight flower delivery</a>
+                <a href="https://facebook.com" target="_blank">
+                  <Facebook color="dodgerblue" fontSize={20} /> Facebook
+                </a>
               </li>
               <li>
-                <a href="#">Sameday flower delivery </a>
+                <a href="https://wa.me/+918667286277/" target="_blank">
+                  <Whatsapp color="green" fontSize={20} /> WhatsApp
+                </a>
               </li>
               <li>
-                <a href="#"> Surpise gifts </a>
+                <a href="#">
+                  {" "}
+                  <Globe fontSize={20} /> Official Website
+                </a>
               </li>
             </ul>
           </Col>
